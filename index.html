@@ -26,7 +26,7 @@
         case '-': result = a - b; break;
         case '*': result = a * b; break;
         case '/': result = b !== 0 ? a / b : 'Error: Divide by zero'; break;
-        case '/': result = a % b; break;
+        case '%': result = a % b; break;
       }
       document.getElementById("result").innerText = result;
     }

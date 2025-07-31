@@ -28,7 +28,7 @@ class Program
                     case "-": result = calc.Subtract(a, b); break;
                     case "*": result = calc.Multiply(a, b); break;
                     case "/": result = calc.Divide(a, b); break;
-                    case "/": result = calc.Percentage(a, b); break;
+                    case "%": result = calc.Percentage(a, b); break;
                     default:
                         Console.WriteLine("Invalid operation");
                         continue;
